@@ -186,6 +186,17 @@
 		</div>
 	</div>
 </div>
+<div class="map" id="map">
+  
+</div>
+<script>
+  ymaps.ready(init);
+  function (init){
+    var map = new ymap.Map('map' , {
+      center: []
+    });
+  }
+</script>
 
 
 
@@ -221,6 +232,8 @@
     </footer>
 
     <!-- Optional JavaScript -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
     <script type="text/javascript" src="./js/libs.js"></script>
     <script type="text/javascript" src="./js/owl.carousel.min.js"></script>
     <script src="./js/additional.js"></script>
