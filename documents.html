@@ -201,11 +201,16 @@
 
     <div class="col-lg-12 pl-3">
       <div class="border p-3 " id="section1" style="border-radius: 5px; display: block;">
-        <embed src="assets/files/buyruq1.pdf" style="height: 1450px; width: 100%;" type="application/pdf" >
+        
+        <div style="height: 1450px; width: 100%" id="viewpdf2">
+            
+          </div>
 
       </div>
       <div class="border p-3 " id="section2" style="border-radius: 5px; display: none;">
-         <embed src="assets/files/samaradorlikni_oshirish_ru.pdf" style="height: 1450px; width: 100%;" type="application/pdf" >
+           <div style="height: 1450px; width: 100%" id="viewpdf1">
+            
+          </div>
       </div>
       <div class="border p-3" id="section3" style="border-radius: 5px; display: none;">
         jamshidbek salayev
@@ -213,6 +218,8 @@
     </div>
   </div>
 </div>
+
+
 
 
 
@@ -248,9 +255,17 @@
     </footer>
 
     <!-- Optional JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
     <script type="text/javascript" src="./js/libs.js"></script>
     <script type="text/javascript" src="./js/owl.carousel.min.js"></script>
     <script src="./js/additional.js"></script>
+    <script>
+      var viewer = $('#viewpdf1');
+      PDFObject.embed('assets/files/samaradorlikni_oshirish_ru.pdf' , viewer);
+      var viewer2 = $('#viewpdf2');
+      PDFObject.embed('assets/files/buyruq1.pdf' , viewer2);
+    </script>
 
 
   </body>
