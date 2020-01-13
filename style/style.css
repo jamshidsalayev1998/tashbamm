@@ -511,11 +511,23 @@ background-color: #83C34B;
 .abouttext{
   font-size: 15px;
 }
+.histcont{
+  padding: 0px;
+}
+.texthist{
+  padding: 48px;
+}
 @media (max-width: 1200px) {
   .divpdf{
     height: 1200px;
   }
   .conabout{
+    padding: 38px;
+  }
+  .histcont{
+  padding: 6px;
+}
+.texthist{
   padding: 38px;
 }
 }
@@ -529,6 +541,12 @@ background-color: #83C34B;
   .abouttext{
     font-size: 14px;
   }
+  .histcont{
+  padding: 4px;
+}
+.texthist{
+  padding: 28px;
+}
 }
 @media (max-width: 1000px) {
   .divpdf{
@@ -540,6 +558,12 @@ background-color: #83C34B;
   .abouttext{
     font-size: 12px;
   }
+  .histcont{
+  padding: 2px;
+}
+.texthist{
+  padding: 18px;
+}
 }
 @media (max-width: 900px) {
   .divpdf{
@@ -551,4 +575,10 @@ background-color: #83C34B;
   .abouttext{
     font-size: 11px;
   }
+  .histcont{
+  padding: 1px;
+}
+.texthist{
+  padding: 8px;
+}
 }
