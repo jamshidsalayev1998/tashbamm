@@ -11,12 +11,17 @@
     <link rel="stylesheet" type="text/css" href="style/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="style/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+
+    <!-- yangi linklar -->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
    
 
 
     <script src="https://kit.fontawesome.com/155f5721f0.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <title>ЦБА</title>
+    <title>ДШБА</title>
     <style> 
     </style>
   </head> 
@@ -57,7 +62,7 @@
             <div class="mt-3">
               <a href="index.php">
                 <h5>
-                  Центр Баркамол Авлод
+                  Детская школа «Баркамол авлод» города Ташкента 
                 </h5>
               </a>
             </div>
@@ -173,5 +178,3 @@
       </div>
     </nav>
   <!-- Main navbar end -->
-
-
