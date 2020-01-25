@@ -590,3 +590,8 @@ background-color: #83C34B;
 .raspdiv:hover{
   background-color: #83C34B;
 }
+
+.nav-link:hover{
+  color: white !important;
+  background-color: #83C34B !important; ;
+}
